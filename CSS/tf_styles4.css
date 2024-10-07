@@ -22,11 +22,43 @@
 
 
 /* General Flex Styles */
+body {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
 
+section#left {
+   -webkit-flex: 1 8 130px;
+   flex: 1 8 130px;
+}
 
+section#right {
+   -webkit-flex: 8 1 351px;
+   flex: 8 1 351px;
+}
 
+section.tips {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
 
+article {
+   -webkit-flex: 2 1 351px;
+   flex: 2 1 351px;
+}
 
+aside {
+   -webkit-flex: 2 1 250px;
+   flex: 2 1 250px;
+}
 
 /* ===============================
 	Mobile Devices: 0 to 480px 
