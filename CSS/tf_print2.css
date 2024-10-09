@@ -38,18 +38,18 @@ img#logo {
 
 
 /* Typography Styles */
-article > header {
+article header {
    margin-bottom: 0.2in;
 }
 
-article > header> h1 {
+article h1 {
    font-size: 24pt;
    line-height: 26pt;
 }
 
-section.tips aside {
-   background-color: rgb(red);
+aside {
    margin-top: 0.3in;
+   background-color: rgb(211,211,211);
 }
 
 aside h1 {
@@ -57,7 +57,7 @@ aside h1 {
    line-height: 20pt;
 }
 
-aside > p >img {
+aside img {
    width: 0.8in;
 }
 
